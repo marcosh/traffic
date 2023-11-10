@@ -1,4 +1,6 @@
-module Main where
+module Main (main) where
+
+import Traffic.Traffic (traffic)
 
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = traffic
